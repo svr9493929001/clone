@@ -9,7 +9,8 @@ import { AskPage } from "./AskPage";
 import { userContext } from "./userContext";
 import { LoginPage } from "./LoginPage";
 function App() {
-  const [user, setUser] = useState(null);
+  const [user] = useState(null);
+
   console.log(user);
   return (
     <div>
